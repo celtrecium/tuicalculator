@@ -13,7 +13,7 @@ options:
 	@echo "CXXFLAGS	= $(CXXFLAGS)"
 
 clean:
-	rm --force --verbose calc result logoscreen.esc helpscreen.esc
+	rm --force --verbose calc logoscreen.esc helpscreen.esc
 
 main.o: ${SRC}/main.cpp
 	${CXX} ${CXXFLAGS} -c $^
