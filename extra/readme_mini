@@ -1,0 +1,6 @@
+PFC is a convertor of images from [symbol][background color][foreground color] view to ESC sequences
+
+Build:
+    g++ pfc.cpp -o pfc
+Syntax:
+    pfc input_file -o output_file
